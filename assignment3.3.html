@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Form enabled with CSS</title>
+<style type="text/css">
+body{
+	background-image: url("bg.gif");
+}
+
+#popupkey{
+	display: inline-block;
+	min-width: 150px;
+}
+
+.clear{
+	clear: both;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 4px;
+	color: black;
+	font-weight: normal;
+}
+</style>
+</head>
+<body>
+
+STEP 1: Your Details
+	<div class=clear><div id="popupkey">Name</div><input style="width=50%" type="text"></input></div>
+	<div class=clear><div id="popupkey">E-mail</div><input style="width=50%" type="text"></input></div>
+	<div class=clear><div id="popupkey">Phone</div><input style="width=50%" type="text"></input></div>
+
+STEP 2: Delivery Address
+<div class=clear><div id="popupkey">Address</div><textarea style="width=50%" type="text"></textarea></div>
+<div class=clear><div id="popupkey">Pin</div><input style="width=50%" type="text"></input></div>
+<div class=clear><div id="popupkey">Country</div><input style="width=50%" type="text"></input></div>
+
+STEP 3: Card Details
+<div class=clear><div id="popupkey">Card Type</div><input value="dasdas" name="dasdas" type="radio"><img height=16 width=16 src="card1.png">Visa</input>
+<input value="dasdas" name="dasdas" type="radio"><img height=16 width=16 src="card2.jpg">AmEx</input>
+<input value="dasdas" name="dasdas" type="radio"><img height=16 width=16 src="card3.png">MasterCard</input>
+
+<div class=clear><div id="popupkey">Card Number</div><input style="width=50%" type="text"></input></div>
+
+<div class=clear><div id="popupkey">Security Code</div><input style="width=50%" type="text"></input></div>
+
+<div class=clear><div id="popupkey">Name on Card</div><input style="width=50%" type="text"></input></div>
+
+<br>
+<div align=center><input type="Submit"; value="Submit"; style="color:white; background-color:blue; border-radious:50px;"></div>
+	<html>
+</body>
